@@ -14,3 +14,7 @@
 * [ ] testes de integração com REST API usando o MVC Testing
 * [ ] testes de unidade usando o XUnit
 * [ ] refatorar o código # sbe-exercism-lasagna
+
+## Referências
+
+* <https://github.com/praticandobdd/cop.challenges.1/blob/main/focus/README.md>
