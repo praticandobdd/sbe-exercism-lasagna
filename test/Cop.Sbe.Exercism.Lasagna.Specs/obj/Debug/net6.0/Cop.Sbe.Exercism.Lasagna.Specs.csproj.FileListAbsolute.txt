@@ -112,3 +112,4 @@
 /Users/vinny/Desktop/github/dojo-sessions/sbe-exercism-lasagna/test/Cop.Sbe.Exercism.Lasagna.Specs/obj/Debug/net6.0/Cop.Sbe.Exercism.Lasagna.Specs.pdb
 /Users/vinny/Desktop/github/dojo-sessions/sbe-exercism-lasagna/test/Cop.Sbe.Exercism.Lasagna.Specs/obj/Debug/net6.0/Cop.Sbe.Exercism.Lasagna.Specs.genruntimeconfig.cache
 /Users/vinny/Desktop/github/dojo-sessions/sbe-exercism-lasagna/test/Cop.Sbe.Exercism.Lasagna.Specs/obj/Debug/net6.0/ref/Cop.Sbe.Exercism.Lasagna.Specs.dll
+/Users/vinny/Desktop/github/dojo-sessions/sbe-exercism-lasagna/test/Cop.Sbe.Exercism.Lasagna.Specs/bin/Debug/net6.0/specflow.json
