@@ -4,10 +4,10 @@
 
 * [x] .NET SDK 7
 * [x] VS Code 
-* [x] Exercism
-    * [x] Lasagna 
+* [ ] Exercism
+    * [ ] Lasagna 
 * [ ] Criação do projeto .NET
-    * [x] criação da solution .NET
+    * [ ] criação da solution .NET
     * [ ] projeto de testes baseado em Specflow e ferramentas relacionadas
     * [ ] projeto de produção, a REST API (webapi)
 * [ ] testes e2e com Specflow
