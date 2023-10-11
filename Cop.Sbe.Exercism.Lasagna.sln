@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{828EB829-5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cop.Sbe.Exercism.Lasagna.Specs", "test\Cop.Sbe.Exercism.Lasagna.Specs\Cop.Sbe.Exercism.Lasagna.Specs.csproj", "{BBAA5A9E-82D4-46D1-BFFB-1C3E447F4DB7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0FE8082B-5D77-489E-ADD4-96D756BC1E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cop.Sbe.Exercism.Lasagna.WebApi", "src\Cop.Sbe.Exercism.Lasagna.WebApi\Cop.Sbe.Exercism.Lasagna.WebApi.csproj", "{16D0E095-3BD3-46B1-85E6-701E175C33D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{BBAA5A9E-82D4-46D1-BFFB-1C3E447F4DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBAA5A9E-82D4-46D1-BFFB-1C3E447F4DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBAA5A9E-82D4-46D1-BFFB-1C3E447F4DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D0E095-3BD3-46B1-85E6-701E175C33D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D0E095-3BD3-46B1-85E6-701E175C33D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D0E095-3BD3-46B1-85E6-701E175C33D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D0E095-3BD3-46B1-85E6-701E175C33D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BBAA5A9E-82D4-46D1-BFFB-1C3E447F4DB7} = {828EB829-570B-47BA-988F-3A7164D3CE9E}
+		{16D0E095-3BD3-46B1-85E6-701E175C33D8} = {0FE8082B-5D77-489E-ADD4-96D756BC1E24}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Cop.Sbe.Exercism.Lasagna.WebApi.props" />
+</Project>
