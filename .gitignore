@@ -52,3 +52,4 @@ StrykerOutput
 *.feature.cs
 *.feature.xlsx.*
 *.Specs_*.html
+ LivingDoc.html
