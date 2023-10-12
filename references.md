@@ -14,10 +14,20 @@ git commit -m "Não rastrear arquivos gerados"
 
 ```
 
-```bash
+## Relatórios de qualidade 
 
+```bash
+dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./lcov.info ./test/Cop.Sbe.Exercism.Lasagna.Specs/
 ```
 
 ```bash
+livingdoc test-assembly test/Cop.Sbe.Exercism.Lasagna.Specs/bin/Debug/net7.0/Cop.Sbe.Exercism.Lasagna.Specs.dll -t test/Cop.Sbe.Exercism.Lasagna.Specs/bin/Debug/net7.0/TestExecution.json
+```
 
+```bash
+dotnet stryker --open-report
+```
+
+```bash
+reportgenerator -reports:./test/Cop.Sbe.Exercism.Lasagna.Specs/lcov.info -targetdir:.coverage
 ```

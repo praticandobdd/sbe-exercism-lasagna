@@ -1,0 +1,136 @@
+{
+  "Cop.Sbe.Exercism.Lasagna.WebApi.dll": {
+    "/Users/vinny/Desktop/github/dojo-sessions/sbe-exercism-lasagna/src/Cop.Sbe.Exercism.Lasagna.WebApi/Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "1": 0,
+            "5": 0,
+            "7": 0,
+            "8": 0,
+            "10": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 64,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 64,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/vinny/Desktop/github/dojo-sessions/sbe-exercism-lasagna/src/Cop.Sbe.Exercism.Lasagna.WebApi/LuciansLusciousLasagna.cs": {
+      "Cop.Sbe.Exercism.Lasagna.WebApi.Lasagna": {
+        "System.Int32 Cop.Sbe.Exercism.Lasagna.WebApi.Lasagna::ExpectedMinutesInOven()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Cop.Sbe.Exercism.Lasagna.WebApi.Lasagna::RemainingMinutesInOven(System.Int32)": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Cop.Sbe.Exercism.Lasagna.WebApi.Lasagna::PreparationTimeInMinutes(System.Int32)": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Cop.Sbe.Exercism.Lasagna.WebApi.Lasagna::ElapsedTimeInMinutes(System.Int32,System.Int32)": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/vinny/Desktop/github/dojo-sessions/sbe-exercism-lasagna/src/Cop.Sbe.Exercism.Lasagna.WebApi/WeatherForecast.cs": {
+      "Cop.Sbe.Exercism.Lasagna.WebApi.WeatherForecast": {
+        "System.DateOnly Cop.Sbe.Exercism.Lasagna.WebApi.WeatherForecast::get_Date()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Cop.Sbe.Exercism.Lasagna.WebApi.WeatherForecast::get_TemperatureC()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Cop.Sbe.Exercism.Lasagna.WebApi.WeatherForecast::get_TemperatureF()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Cop.Sbe.Exercism.Lasagna.WebApi.WeatherForecast::get_Summary()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/vinny/Desktop/github/dojo-sessions/sbe-exercism-lasagna/src/Cop.Sbe.Exercism.Lasagna.WebApi/Controllers/WeatherForecastController.cs": {
+      "Cop.Sbe.Exercism.Lasagna.WebApi.Controllers.WeatherForecastController": {
+        "System.Collections.Generic.IEnumerable`1<Cop.Sbe.Exercism.Lasagna.WebApi.WeatherForecast> Cop.Sbe.Exercism.Lasagna.WebApi.Controllers.WeatherForecastController::Get()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Void Cop.Sbe.Exercism.Lasagna.WebApi.Controllers.WeatherForecastController::.ctor(Microsoft.Extensions.Logging.ILogger`1<Cop.Sbe.Exercism.Lasagna.WebApi.Controllers.WeatherForecastController>)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void Cop.Sbe.Exercism.Lasagna.WebApi.Controllers.WeatherForecastController::.cctor()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
