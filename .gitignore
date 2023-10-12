@@ -53,3 +53,6 @@ StrykerOutput
 *.feature.xlsx.*
 *.Specs_*.html
  LivingDoc.html
+
+#coverlet
+.coverage/
