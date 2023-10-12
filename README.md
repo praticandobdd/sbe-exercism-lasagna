@@ -1,20 +1,27 @@
-# README
+# Desafio: Lasagna (from exercism.org)
 
-## Checklist 
+## Configurações para o participante
 
-* [x] .NET SDK 7
-* [x] VS Code 
-* [ ] Exercism
-    * [ ] Lasagna 
-* [ ] Criação do projeto .NET
-    * [ ] criação da solution .NET
-    * [ ] projeto de testes baseado em Specflow e ferramentas relacionadas
-    * [ ] projeto de produção, a REST API (webapi)
-* [ ] testes e2e com Specflow
-* [ ] testes de integração com REST API usando o MVC Testing
-* [ ] testes de unidade usando o XUnit
-* [ ] refatorar o código # sbe-exercism-lasagna
+* .NET SDK CLI versão 7 ou superior
+* VS Code
+* Git
+
+## Instruções 
+
+* Lasanha (<https://exercism.org/tracks/csharp/exercises/lucians-luscious-lasagna>)
+* <https://github.com/praticandobdd/cop.challenges.1/blob/main/focus/README.md>  
 
 ## Referências
 
-* <https://github.com/praticandobdd/cop.challenges.1/blob/main/focus/README.md>
+* <https://codingdojo.org/practices/WhatIsCodingDojo/>
+* <https://exercism.org/tracks/csharp>
+* <http://agiletester.ca>
+* BDD Discovery
+* BDD Formulation
+* BDD in Action - Second Edition
+* Specification by Example
+* Writing Great Specifications
+
+
+
+
