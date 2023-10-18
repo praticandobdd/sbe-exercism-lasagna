@@ -19,6 +19,7 @@ namespace Cop.Sbe.Exercism.Lasagna.Specs.Steps
              _scenarioContext.Pending();
         }
 
+        [Then(@"minutos esperados no forno deve ser (.*)")]
         [Then(@"expected minutes in oven should be (.*)")]
          public void ThenExpectedMinutesInOvenShouldBe(int expected)
          {
@@ -26,5 +27,6 @@ namespace Cop.Sbe.Exercism.Lasagna.Specs.Steps
             var actual = lasagna.ExpectedMinutesInOven();
             actual.Should().Be(expected);
          }
+
     }
 }
