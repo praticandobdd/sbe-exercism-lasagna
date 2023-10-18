@@ -27,6 +27,7 @@
     <PkgValidation Condition=" '$(PkgValidation)' == '' ">/Users/vinny/.nuget/packages/validation/2.4.18</PkgValidation>
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/Users/vinny/.nuget/packages/newtonsoft.json/9.0.1</PkgNewtonsoft_Json>
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">/Users/vinny/.nuget/packages/xunit.analyzers/0.10.0</Pkgxunit_analyzers>
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/Users/vinny/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgBoDi Condition=" '$(PkgBoDi)' == '' ">/Users/vinny/.nuget/packages/bodi/1.5.0</PkgBoDi>
   </PropertyGroup>
 </Project>
