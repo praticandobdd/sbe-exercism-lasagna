@@ -12,6 +12,7 @@ Feature: Lucian's Luscious Lasagna
 
 Rule: Define the expected oven time in minutes
 Scenario: Expected minutes in oven
+Then expected minutes in oven should be 40 
 
 Rule: Calculate the remaining oven time in minutes
 Scenario: Remaining minutes in oven after twenty five minutes
