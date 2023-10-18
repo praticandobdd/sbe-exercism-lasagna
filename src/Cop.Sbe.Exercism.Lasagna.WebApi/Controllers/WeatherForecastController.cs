@@ -18,6 +18,10 @@ public class WeatherForecastController : ControllerBase
         _logger = logger;
     }
 
+/// <summary>
+/// Consulte a previsão do tempo para os próximos 5 dias
+/// </summary>
+/// <returns></returns>
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {
