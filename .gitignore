@@ -56,3 +56,4 @@ StrykerOutput
 
 #coverlet
 .coverage/
+.fake
