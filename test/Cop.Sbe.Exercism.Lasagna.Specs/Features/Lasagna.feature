@@ -16,12 +16,18 @@ Then expected minutes in oven should be 40
 
 Rule: Calculate the remaining oven time in minutes
 Scenario: Remaining minutes in oven after twenty five minutes
+Then remaining minutes in oven should be 15
 Scenario: Remaining minutes in oven after thirty three minutes
+Then remaining minutes in oven should be 5
 
 Rule: Calculate the preparation time in minutes
 Scenario: Preparation time in minutes for multiple layers
+Then preparation time in minutes should be 0
 Scenario: Preparation time in minutes for one layer
+Then preparation time in minutes should be 2
 
 Rule: Calculate the elapsed time in minutes
 Scenario: Elapsed time in minutes for one layer
+Then elapsed time in minutes should be 9
 Scenario: Elapsed time in minutes for multiple layers
+Then elapsed time in minutes should be -9

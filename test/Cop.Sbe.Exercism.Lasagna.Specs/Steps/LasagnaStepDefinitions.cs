@@ -19,4 +19,22 @@ public class LasagnaStepDefinitions
         var actual = lasagna.ExpectedMinutesInOven();
         actual.Should().Be(expected);
     }
+
+    [Then(@"remaining minutes in oven should be (.*)")]
+    public void ThenRemainingMinutesInOvenShouldBe(int p0)
+    {
+        _scenarioContext.Pending();
+    }
+
+    [Then(@"preparation time in minutes should be (.*)")]
+    public void ThenPreparationTimeInMinutesShouldBe(int p0)
+    {
+        _scenarioContext.Pending();
+    }
+
+    [Then(@"elapsed time in minutes should be (.*)")]
+    public void ThenElapsedTimeInMinutesShouldBe(int p0)
+    {
+        _scenarioContext.Pending();
+    }
 }
