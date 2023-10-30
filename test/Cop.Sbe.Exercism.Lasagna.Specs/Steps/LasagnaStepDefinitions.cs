@@ -15,26 +15,28 @@ public class LasagnaStepDefinitions
     [Then(@"expected minutes in oven should be (.*)")]
     public void ThenExpectedMinutesInOvenShouldBe(int expected)
     {
-        var lasagna = new Lasagna();
-        var actual = lasagna.ExpectedMinutesInOven();
-        actual.Should().Be(expected);
+        Lasagna().ExpectedMinutesInOven().Should().Be(expected);
     }
 
-    [Then(@"remaining minutes in oven should be (.*)")]
-    public void ThenRemainingMinutesInOvenShouldBe(int p0)
+    [Then(@"remaining minutes in oven should be (.*) when actual minutes is (.*)")]
+    public void ThenRemainingMinutesInOvenShouldBe(int expected, int actualMinutes)
     {
-        _scenarioContext.Pending();
+        Lasagna().RemainingMinutesInOven(actualMinutes).Should().Be(expected);
     }
 
-    [Then(@"preparation time in minutes should be (.*)")]
-    public void ThenPreparationTimeInMinutesShouldBe(int p0)
+    [Then(@"preparation time in minutes should be (.*) when added layers is (.*)")]
+    public void ThenPreparationTimeInMinutesShouldBe(int expected, int addedLayers)
     {
-        _scenarioContext.Pending();
+        Lasagna().PreparationTimeInMinutes(addedLayers).Should().Be(expected);
     }
 
-    [Then(@"elapsed time in minutes should be (.*)")]
-    public void ThenElapsedTimeInMinutesShouldBe(int p0)
+    [Then(
+        @"elapsed time in minutes should be (.*) when added layers is (.*) and minutes in oven is (.*)"
+    )]
+    public void ThenElapsedTimeInMinutesShouldBe(int expected, int addedLayers, int minutesInOven)
     {
-        _scenarioContext.Pending();
+        Lasagna().ElapsedTimeInMinutes(addedLayers, minutesInOven).Should().Be(expected);
     }
+
+    static Lasagna Lasagna() => new Lasagna();
 }
