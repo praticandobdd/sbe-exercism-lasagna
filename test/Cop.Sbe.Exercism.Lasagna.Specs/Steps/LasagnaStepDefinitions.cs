@@ -1,6 +1,7 @@
-using Cop.Sbe.Exercism.Lasagna.WebApi;
 using FluentAssertions;
 using TechTalk.SpecFlow;
+
+namespace Cop.Sbe.Exercism.Lasagna.Specs.Steps;
 
 [Binding]
 public class LasagnaStepDefinitions
@@ -38,5 +39,5 @@ public class LasagnaStepDefinitions
         Lasagna().ElapsedTimeInMinutes(addedLayers, minutesInOven).Should().Be(expected);
     }
 
-    static Lasagna Lasagna() => new Lasagna();
+    static WebApi.Lasagna Lasagna() => new WebApi.Lasagna();
 }

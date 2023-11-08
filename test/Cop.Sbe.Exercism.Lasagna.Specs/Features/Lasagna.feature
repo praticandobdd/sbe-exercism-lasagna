@@ -1,3 +1,4 @@
+@integration
 Feature: Lucian's Luscious Lasagna
 
 # Rule Extractor: 

@@ -2,5 +2,8 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "language": {
         "feature": "en"
+    },
+    "generator": {
+        "allowDebugGeneratedFiles":true
     }
 }

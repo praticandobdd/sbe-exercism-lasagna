@@ -2,54 +2,58 @@ using Xunit;
 using Exercism.Tests;
 using Cop.Sbe.Exercism.Lasagna.WebApi;
 
+namespace UseCase;
 public class LuciansLusciousLasagnaTests
 {
     [Fact]
     [Task(1)]
     public void Expected_minutes_in_oven()
     {
-        Assert.Equal(40, new Lasagna().ExpectedMinutesInOven());
+        Assert.Equal(40, Lasagna().ExpectedMinutesInOven());
     }
 
     [Fact]
     [Task(2)]
     public void Remaining_minutes_in_oven_after_twenty_five_minutes()
     {
-        Assert.Equal(15, new Lasagna().RemainingMinutesInOven(25));
+        Assert.Equal(15, Lasagna().RemainingMinutesInOven(25));
     }
 
     [Fact]
     [Task(2)]
     public void Remaining_minutes_in_oven_after_thirty_three_minutes()
     {
-        Assert.Equal(7, new Lasagna().RemainingMinutesInOven(33));
+        Assert.Equal(7, Lasagna().RemainingMinutesInOven(33));
     }
 
     [Fact]
     [Task(3)]
     public void Preparation_time_in_minutes_for_one_layer()
     {
-        Assert.Equal(2, new Lasagna().PreparationTimeInMinutes(1));
+        Assert.Equal(2, Lasagna().PreparationTimeInMinutes(1));
     }
 
     [Fact]
     [Task(3)]
     public void Preparation_time_in_minutes_for_multiple_layers()
     {
-        Assert.Equal(8, new Lasagna().PreparationTimeInMinutes(4));
+        Assert.Equal(8, Lasagna().PreparationTimeInMinutes(4));
     }
 
     [Fact]
     [Task(4)]
     public void Elapsed_time_in_minutes_for_one_layer()
     {
-        Assert.Equal(32, new Lasagna().ElapsedTimeInMinutes(1, 30));
+        Assert.Equal(32, Lasagna().ElapsedTimeInMinutes(1, 30));
     }
 
     [Fact]
     [Task(4)]
     public void Elapsed_time_in_minutes_for_multiple_layers()
     {
-        Assert.Equal(16, new Lasagna().ElapsedTimeInMinutes(4, 8));
+        Assert.Equal(16, Lasagna().ElapsedTimeInMinutes(4, 8));
     }
+
+    static Lasagna Lasagna() => new();
+
 }
