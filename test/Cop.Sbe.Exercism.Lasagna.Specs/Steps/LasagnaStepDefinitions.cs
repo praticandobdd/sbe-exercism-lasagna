@@ -14,6 +14,7 @@ public class LasagnaStepDefinitions
     }
 
     [Then(@"expected minutes in oven should be (.*)")]
+    [Then(@"minutos no forno devem ser (.*)")]
     public void ThenExpectedMinutesInOvenShouldBe(int expected)
     {
         Lasagna().ExpectedMinutesInOven().Should().Be(expected);
